@@ -1,0 +1,46 @@
+
+
+/*Configuração do fundo e tamanho do menu*/
+ul  {
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 560px;
+	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left; 
+}
+
+/*Formatação da Li para Colocar menu na horizontal*/
+ul li{
+	
+	float: left; 
+
+}
+/*Formatação dos Links*/
+ul a{
+	display: block;
+	padding: 0 2em; 
+	line-height: 2.3em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png)repeat-y left top; 
+}
+/*Remove o Divisor que está no primeiro link*/
+ul .primeiro a {
+	background:none; 
+}
+/*Efeito deslizar/flutuar(hover) do mouse sob os inks*/
+ul a:hover{
+	color: #085662;
+	background:#44cade;
+}
+/*Deixar o link atual marcado*/
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	color: #085662;
+	background:#44cade;
+}
